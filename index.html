@@ -6,7 +6,7 @@
   </head>
   <body>
     <header>
-      <div class="contaner">
+      <div class="container">
         <nav class="nav">
             <ul class="nav-list">
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -19,21 +19,28 @@
         </nav>
       </div>
     </header>
-    <main>
-    <div class="contaner">
+    <main class="container main-container">
+    <div class="information main">
       <div class="section" id="profile">
+        <img id="my-photo" src="./DaryaLukashyk.jpeg" alt="My Photo" >
         <h1>Darya Lukashyk</h1>
-        <h2>Junior FrontEnd developer</h2>
+        <h3>Junior Frontend developer</h3>
+        <p>Minsk, Belarus</p>
+        <hr style="border: 2px solid rgb(166, 166, 249);">
       </div>
       <div class="section" id="contacts">
          <h2>Contacts</h2>
-         <p>E-mail: darya.ahmadova@gmail.com</p>
-         <p>Phone: +375 (44) 516-8874</p>
-         <p>GitHub: DaryaLukashik</p>
+         
+         <!-- <hr style="border: 2px solid rgb(166, 166, 249);">  -->
+         <p>darya.ahmadova@gmail.com</p>
+         <p>+375 (44) 516-8874</p>
+         <p><a href="https://github.com/DaryaLukashik">GitHub: DaryaLukashik</a></p>
       </div>
+    </div>
+    <div class="information all">
       <div class="section" id="summary">
         <h2>About me</h2>
-        <p>I am 28 years old and have a wonderful experience working for an American IT company.
+        <p> I am 28 years old and have a wonderful experience working for an American IT company.
             I started working for this company when it was still a startup, and now it is one of the largest telemedicine companies in America. 
             I worked as a Human Resources Manager. I really like to learn something new and decided to try myself in a new role.</p>
       </div>
@@ -49,18 +56,28 @@
       </div>
       <div class="section" id="code">
         <h2>Code</h2>
+        <pre>
+          <code>
+            function capitalize(word){
+              return word[0].toUpperCase()+word.slice(1)
+            }
+        </code>
+          </pre>
       </div>
       <div class="section" id="education">
         <h2>Education</h2>
+        <p>BSU(Faculty of Mechanics and Mathematics) - 2016</p>
       </div>
       <div class="section" id="english">
-        <h2>English</h2>
+        <h2>English level</h2>
+        <p>A2+</p>
       </div>
     </div> 
   </main>
   <footer>
-    <div class="contaner">
-
+    <div class="container footer">
+     <a id="javascript_class" href="https://rs.school/js/">Курс по JavaScript от RS_scholl</a> 
+     <img id="logo" src="./rs_school_js.svg" alt="logo_rs_school" >
     </div> 
    </footer>
   
